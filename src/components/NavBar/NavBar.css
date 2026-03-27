@@ -1,0 +1,84 @@
+@media screen and (min-width: 358px) {
+  .NavBar {
+    background-color: white;
+
+    position: fixed;
+    width: 75vw;
+    height: 100vh;
+
+    border-right: 5px solid rgb(188, 148, 126);
+  }
+
+  .NavBar article {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    padding: 0 0 0 2rem;
+    margin: 1.5rem 0 0 0;
+  }
+
+  /* Menu - List */
+
+  .NavBar article nav {
+    width: 100%;
+    height: 30vh;
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  /* Menu - List - Link */
+
+  .NavBar article nav a {
+    color: rgb(100, 99, 99);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-decoration: none;
+
+    font-size: 1.2rem;
+    font-family: "Bungee", sans-serif;
+    font-weight: bold;
+
+    margin-bottom: 1rem;
+    transition: all ease-in-out 600ms;
+  }
+
+  .NavBar article nav a.active {
+    color: rgb(188, 148, 126);
+  }
+
+  .NavBar article nav a:hover {
+    color: rgb(188, 148, 126);
+
+    transition: all ease-in-out 300ms;
+  }
+
+  /* Menu - Logo */
+
+  .NavBar article figure {
+    width: 100%;
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+  }
+
+  .NavBar article figure img {
+    width: 35%;
+    object-fit: cover;
+  }
+}
