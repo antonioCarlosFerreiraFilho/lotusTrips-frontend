@@ -11,7 +11,35 @@ const Header = () => {
   function MenuAnimaded() {
     const Line = document.querySelector(".Header_Menu-line");
     Line.classList.toggle("active");
+
+    const Menu = document.querySelector(".NavBar");
+    Menu.classList.toggle("NavBarJS");
   }
+
+  // Menu List Links Animaded
+  function menuLinks() {
+    const Menu = document.querySelector(".NavBar");
+    const Line = document.querySelector(".Header_Menu-line");
+    const MenuListLinks = document.querySelector(".NavBar_list-Links");
+
+    MenuListLinks.addEventListener("click", () => {
+      if (Line.classList.contains("active")) {
+        Line.classList.remove("active");
+      }
+
+      if (Menu.classList.contains("NavBarJS")) {
+        Menu.classList.remove("NavBarJS");
+      }
+    });
+  }
+
+  useEffect(() => {
+    const startEvents = setTimeout(() => {
+      menuLinks();
+    }, 1000);
+
+    return () => clearTimeout(startEvents);
+  }, []);
 
   return (
     <section className="Header">

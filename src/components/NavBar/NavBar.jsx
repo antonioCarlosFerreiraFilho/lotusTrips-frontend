@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <section className="NavBar">
       <article>
-        <nav>
+        <nav className="NavBar_list-Links">
           <NavLink to="/">Ìnicio</NavLink>
           <NavLink to="/trips">Viagens</NavLink>
           <NavLink to="/discover">Descubra</NavLink>
@@ -16,6 +16,9 @@ const NavBar = () => {
         </nav>
         <figure>
           <img src="/public/logo/Logo.png" alt="Logo" />
+          <p>
+            Lotus<strong>Trips</strong>
+          </p>
         </figure>
       </article>
     </section>
