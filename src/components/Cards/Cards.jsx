@@ -2,93 +2,23 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <div>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-      <h1>ola Mundo</h1>
-    </div>
+    <section>
+      <main>
+        <article>
+          <aside>
+            <h1>Most Popular Tours</h1>
+          </aside>
+          <aside>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              commodi reiciendis quam itaque, magni corrupti quidem cum, nam
+              nulla minima, porro reprehenderit beatae suscipit dolores sit.
+              Nihil dicta eligendi pariatur!
+            </p>
+          </aside>
+        </article>
+      </main>
+    </section>
   );
 };
 

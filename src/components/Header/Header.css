@@ -1,6 +1,6 @@
 @media screen and (min-width: 358px) {
   .Header {
-    background-color: white;
+    background-color: transparent;
     width: 100%;
 
     position: fixed;
@@ -30,7 +30,7 @@
   }
 
   .Header article a figure {
-    width: 40%;
+    width: 30%;
     max-width: 100px;
     height: 50px;
 
@@ -44,20 +44,20 @@
   }
 
   .Header article a figure img {
-    width: 100%;
-    max-width: 90px;
+    width: 120px;
+
     object-fit: cover;
   }
 
   /* LOGO - Title */
   .Header article a p {
-    color: black;
+    color: white;
     text-decoration: none;
 
     font-family: "Roboto Slab", serif;
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 0;
+    margin: 0 0 5px 0;
     padding: 0;
   }
 
@@ -72,7 +72,12 @@
     padding: 0;
   }
 
-  /* MENU */
+  /* MENU - DESKTOP */
+  .Header article span {
+    display: none;
+  }
+
+  /* MENU - MOBILE */
   .Header article nav {
     width: 20%;
     height: 100%;
@@ -97,7 +102,7 @@
     width: 30px;
     height: 4px;
 
-    border-top: 4px solid black;
+    border-top: 4px solid rgb(229, 200, 184);
 
     display: flex;
 
@@ -110,7 +115,7 @@
   .Header article nav i .Header_Menu-line::after,
   .Header article nav i .Header_Menu-line::before {
     content: "";
-    background-color: black;
+    background-color: rgb(229, 200, 184);
 
     display: block;
     width: 100%;
@@ -135,5 +140,88 @@
     transform: rotate(42deg);
     transition: 0.3s;
     top: -8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* MENU */
+  .Header article nav {
+    display: none;
+  }
+
+  /* MENU - DESKTOP */
+  .Header article span {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header article span ul {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .Header article span ul li {
+    width: 100%;
+
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+
+  .Header article span ul li a {
+    color: rgb(208, 206, 206);
+
+    font-size: 0.9rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+    transition: all ease-in-out 300ms;
+  }
+
+  .Header article span ul li a.active {
+    color: white;
+  }
+
+  .Header article span ul li a:hover {
+    color: white;
+    transition: all ease-in-out 300ms;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header article {
+    max-width: 1000px;
+  }
+
+  /* Menu - Desktop - Link */
+  .Header article span ul li a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .Header article {
+    max-width: 1400px;
   }
 }

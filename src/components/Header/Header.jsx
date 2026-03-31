@@ -46,7 +46,7 @@ const Header = () => {
       <article>
         <NavLink>
           <figure>
-            <img src="/public/logo/Logo.png" alt="logo" />
+            <img src="/public/logo/Lotus.png" alt="logo" />
           </figure>
           <p>
             Lotus<strong>Trips</strong>
@@ -57,6 +57,22 @@ const Header = () => {
             <span className="Header_Menu-line"></span>
           </i>
         </nav>
+        <span>
+          <ul>
+            <li>
+              <NavLink to="/">Ìnicio</NavLink>
+            </li>
+            <li>
+              <NavLink to="/trips">Viagens</NavLink>
+            </li>
+            <li>
+              <NavLink to="/discover">Descubra</NavLink>
+            </li>
+            <li>
+              <NavLink to="/highlights">Destaques</NavLink>
+            </li>
+          </ul>
+        </span>
       </article>
       <aside>
         <Navbar />

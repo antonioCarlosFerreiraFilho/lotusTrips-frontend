@@ -163,22 +163,22 @@ const BannerSlider = () => {
 
           <div className="BannerSlider_content-box-Slide">
             <img
-              src="/public/Banner/slide_1.jpg"
+              src="/public/Banner/Banner_02.png"
               alt=""
               className="BannerSlider_content-SlideImage activeBanner"
             />
             <img
-              src="/public/Banner/slide_2.jpg"
+              src="/public/Banner/Banner_03.jpg"
               alt=""
               className="BannerSlider_content-SlideImage"
             />
             <img
-              src="/public/Banner/slide_3.jpg"
+              src="/public/Banner/Banner_06.jpg"
               alt=""
               className="BannerSlider_content-SlideImage"
             />
             <img
-              src="/public/Banner/slide_2.jpg"
+              src="/public/Banner/Banner_07.jpg"
               alt=""
               className="BannerSlider_content-SlideImage"
             />
