@@ -1,0 +1,56 @@
+@media screen and (min-width: 358px) {
+  .Cards {
+    width: 100%;
+  }
+
+  .Cards main {
+    width: 100%;
+  }
+
+  /* Article - Title and Cards */
+  .Cards main article {
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 3rem 0 0 0;
+  }
+
+  .Cards main article aside {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Cards main article aside h1 {
+    color: black;
+
+    font-size: 2.4rem;
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  .Cards main article aside h1 strong {
+    color: rgb(188, 148, 126);
+
+    font-size: 2.4rem;
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: underline;
+  }
+
+  .Cards main article aside p {
+    color: rgb(93, 89, 89);
+
+    font-size: 1.2rem;
+    text-align: start;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+  }
+
+  .Cards main article aside p strong {
+    color: rgb(0, 0, 0);
+
+    font-size: 1.2rem;
+    text-align: start;
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
+  }
+}
