@@ -7,7 +7,7 @@
     width: 100%;
   }
 
-  /* Article - Title and Cards */
+  /* Article - Title + Description */
   .Cards main article {
     width: 100%;
 
@@ -36,6 +36,7 @@
     text-decoration: underline;
   }
 
+  /* Article - Description */
   .Cards main article aside p {
     color: rgb(93, 89, 89);
 
@@ -52,5 +53,164 @@
     text-align: start;
     font-family: "Abel", sans-serif;
     font-weight: bold;
+  }
+
+  /* Article - Cards */
+  .Cards main article:last-child {
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .Cards main article:last-child a {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 2rem;
+  }
+
+  /* Article - Card Image */
+  .Cards main article:last-child a figure {
+    background-color: blue;
+
+    width: 100%;
+    height: 300px;
+    min-height: 300px;
+
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Cards main article:last-child a figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Article - Description */
+
+  .Cards main article:last-child a aside .Cards_Title {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    padding: 0.5rem;
+  }
+
+  .Cards main article:last-child a aside .Cards_Title p {
+    color: rgb(93, 89, 89);
+
+    font-size: 0.9rem;
+    text-align: start;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .Cards main article:last-child a aside .Cards_Title h1 {
+    color: rgb(0, 0, 0);
+
+    font-size: 2rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    text-align: start;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Article - Icons  */
+  .Cards main article:last-child a aside .Cards_Icons-Trips {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .Cards main article:last-child a aside .Cards_Icons-Trips li .Cards_Icon {
+    color: rgb(72, 100, 211);
+
+    font-size: 2rem;
+
+    margin: 1rem 0 0.5rem 0;
+  }
+
+  .Cards main article:last-child a aside .Cards_Icons-Trips li {
+    width: 33%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-right: 1px solid rgb(205, 187, 187);
+  }
+
+  .Cards main article:last-child a aside .Cards_Icons-Trips li:last-child {
+    border: none;
+  }
+
+  .Cards main article:last-child a aside .Cards_Icons-Trips li p {
+    color: rgb(93, 89, 89);
+
+    font-size: 0.6rem;
+    text-align: start;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .Cards main article:last-child a aside .Cards_Icons-Trips li p strong {
+    color: rgb(7, 7, 7);
+
+    font-size: 0.7rem;
+    text-align: start;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .Cards main article:last-child a input {
+    background-color: transparent;
+    color: rgb(108, 102, 102);
+
+    width: 90%;
+    height: 30px;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+
+    margin: 2rem 0 0 0;
+    padding: 0;
+    outline: none;
+
+    cursor: pointer;
+    border: 1px solid rgb(219, 207, 207);
   }
 }
