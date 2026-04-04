@@ -1,0 +1,123 @@
+@media screen and (min-width: 358px) {
+  .CallTour {
+    width: 100%;
+  }
+
+  /* Figure Content: Image Background */
+  .CallTour figure {
+    width: 100%;
+    min-height: 900px;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    background-image: url("../../../public/Backgrounds/back_00.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .CallTour figure article {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Aside Content: title1 title2 and description */
+  .CallTour figure article aside {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 9rem;
+  }
+
+  .CallTour figure article aside h2 {
+    color: rgb(92, 87, 87);
+
+    font-size: 2rem;
+    font-family: "Bungee", sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .CallTour figure article aside p {
+    color: rgb(93, 89, 89);
+
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .CallTour figure article aside h3 {
+    color: rgb(92, 87, 87);
+
+    font-size: 2rem;
+    font-family: "Bungee", sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Nav Content: description and Call */
+  .CallTour figure article nav {
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 3rem;
+  }
+
+  .CallTour figure article nav p {
+    color: rgb(93, 89, 89);
+
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+
+    margin: 0 0 3rem 0;
+  }
+
+  .CallTour figure article nav a {
+    background-color: orange;
+    color: rgb(255, 255, 255);
+
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+
+    padding: 0;
+    outline: none;
+
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+}
