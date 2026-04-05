@@ -121,3 +121,34 @@
     border-radius: 5px;
   }
 }
+
+@media screen and (min-width: 500px) {
+  /* Figure Content: Image Background */
+  .CallTour figure {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .CallTour figure article {
+    max-width: 800px;
+  }
+
+  /* Aside Content: title1 title2 and description */
+  .CallTour figure article aside {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 15rem;
+  }
+
+  /* CAll Botao */
+  .CallTour figure article nav a {
+    max-width: 360px;
+  }
+}

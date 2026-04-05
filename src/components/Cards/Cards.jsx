@@ -11,13 +11,13 @@ const Cards = () => {
   return (
     <section className="Cards">
       <main>
-        <article>
-          <aside>
+        <article id="Cards_Title-Description-Pri">
+          <aside id="Cards_title-Initial">
             <h1>
               Most <strong>Popular</strong> Tours
             </h1>
           </aside>
-          <aside>
+          <aside id="Cards_title-Description">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora
               commodi reiciend loremis quam itaque,{" "}
