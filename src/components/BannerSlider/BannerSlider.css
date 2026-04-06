@@ -30,7 +30,6 @@
 
   .BannerSlider_content {
     width: 100%;
-    /*height: 350px; --------------------*/
     height: 100vh;
 
     overflow: hidden;
@@ -39,9 +38,7 @@
   }
 
   .BannerSlider_content-box-Slide {
-    /*height: 350px; --------------------*/
     height: 100vh;
-
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -148,11 +145,12 @@
   }
 
   .BannerSlider_content-box-Description-content a {
-    background-color: #0066cc;
-    color: white;
+    background-color: #ff1d8d;
+    color: rgb(252, 250, 250);
 
+    font-size: 1.1rem;
     font-family: "Acme", sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
     text-decoration: none;
 
@@ -278,7 +276,6 @@
   }
 
   /* Arrow */
-
   .BannerSlider_content-box-Arroow-ArrowLeftBox {
     display: none;
   }
@@ -317,19 +314,16 @@
 
 @media screen and (min-width: 768px) {
   /* Banner */
-
   .BannerSlider_content {
     width: 100%;
-    /*height: 350px; --------------------*/
     height: 100vh;
   }
 
   .BannerSlider_content-box-Slide {
-    /*height: 350px; --------------------*/
     height: 100vh;
   }
 
-  /* Box Description Style */
+  /* Box Description Style   */
 
   .BannerSlider_content-box-Description {
     width: 70%;
@@ -351,12 +345,10 @@
 
   .BannerSlider_content {
     width: 100%;
-    /*height: 350px; --------------------*/
     height: 100vh;
   }
 
   .BannerSlider_content-box-Slide {
-    /*height: 350px; --------------------*/
     height: 100vh;
   }
 
@@ -427,27 +419,43 @@
 
 @media screen and (min-width: 1200px) {
   /* Banner */
-
   .BannerSlider_content {
     width: 100%;
-    /*height: 350px; --------------------*/
     height: 100vh;
   }
 
   .BannerSlider_content-box-Slide {
-    /*height: 350px; --------------------*/
     height: 100vh;
   }
 
-  /* Description */
+  /* Description AND form*/
+  #Section_content_Form {
+    width: 100%;
+    height: 400px;
 
+    position: absolute;
+    top: 40%;
+    left: 0%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  #Section_content_Form article {
+    width: 1200px;
+
+    position: relative;
+    z-index: 600;
+  }
+
+  /* Description */
   .BannerSlider_content-box-Description {
     width: 47%;
     height: 250px;
 
     position: absolute;
-    top: 50%;
-    left: 33%;
+    top: 30%;
+    left: 25%;
     transform: translate(-50%, -25%);
   }
 
@@ -472,40 +480,51 @@
   }
 
   /* Style box form Banner */
-
   .BannerSlider_content-box-form-container {
-    background-color: #120a8f90;
+    background-color: #ab0a5b70;
 
-    width: 30%;
-    max-width: 450px;
-    height: 500px;
+    width: 510px;
+    height: 510px;
 
     position: absolute;
-    top: 30%;
-    right: 0%;
-    transform: translate(-38%, -10%);
+    top: -20%;
+    right: -10%;
+    transform: translate(-25%, -5%);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     z-index: 500;
-    display: block;
   }
 
   .BannerSlider_content-box-form-container-content {
-    width: 100%;
+    background-color: #ab0a5b90;
 
-    height: 100%;
+    width: 450px;
+    height: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     box-sizing: border-box;
-
     padding: 1rem;
+
+    position: relative;
+    z-index: 600;
+
+    border-radius: 50%;
   }
 
   .BannerSlider_content-box-form-container-contentForm {
-    width: 100%;
-    height: 100%;
+    width: 70%;
 
     display: flex;
     flex-direction: column;
 
+    box-sizing: border-box;
     position: relative;
   }
 
@@ -516,8 +535,8 @@
     color: white;
 
     font-size: 1.7rem;
-    font-family: "Jost", sans-serif;
-    font-weight: 500;
+    font-family: "Bungee", sans-serif;
+    font-weight: bold;
     font-style: normal;
 
     margin: 0;
@@ -537,8 +556,8 @@
   .BannerSlider_content-box-form-container-contentForm-inputs span {
     color: white;
 
-    font-size: 1.1rem;
-    font-family: "Bree Serif", serif;
+    font-size: 1.3rem;
+    font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
 
@@ -549,22 +568,27 @@
     width: 100%;
     height: 30px;
 
-    background-color: white;
-
-    color: black;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
 
     font-size: 1.1rem;
-    font-family: "Bree Serif", serif;
+    font-family: "Abel", sans-serif;
     font-weight: 400;
     font-style: normal;
 
     border: none;
-    border-radius: 5px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
     outline: none;
 
     padding: 0.4rem;
-
     box-sizing: border-box;
+  }
+
+  .BannerSlider_content-box-form-container-contentForm-inputs
+    input::placeholder {
+    color: white;
+    font-size: 1rem;
   }
 
   .BannerSlider_content-box-form-container-contentForm-textarea {
@@ -581,8 +605,8 @@
   .BannerSlider_content-box-form-container-contentForm-textarea span {
     color: white;
 
-    font-size: 1.1rem;
-    font-family: "Bree Serif", serif;
+    font-size: 1.2rem;
+    font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
 
@@ -591,24 +615,30 @@
 
   .BannerSlider_content-box-form-container-contentForm-textarea textarea {
     width: 100%;
-    height: 100px;
+    height: 60px;
 
-    color: black;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
 
-    background-color: white;
-
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-family: "Bree Serif", serif;
     font-weight: 400;
     font-style: normal;
 
     border: none;
-    border-radius: 5px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
     outline: none;
 
     padding: 0.4rem;
 
     box-sizing: border-box;
+  }
+
+  .BannerSlider_content-box-form-container-contentForm-textarea
+    textarea::placeholder {
+    color: white;
+    font-size: 1rem;
   }
 
   .BannerSlider_content-box-form-container-contentForm-submit {
@@ -619,12 +649,12 @@
     width: 100%;
     height: 40px;
 
-    background-color: #0770d8;
+    background-color: #ff1d8d;
     color: white;
 
-    font-size: 1.1rem;
-    font-family: "Bree Serif", serif;
-    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
     font-style: normal;
 
     border: none;
@@ -651,22 +681,13 @@
   }
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1800px) {
   /* Style box form Banner */
 
-  .BannerSlider_content-box-form-container {
-    background-color: #120a8f90;
+  #Section_content_Form article {
+    width: 1500px;
 
-    width: 30%;
-    max-width: 450px;
-    height: 500px;
-
-    position: absolute;
-    top: 30%;
-    right: 0%;
-    transform: translate(-90%, -10%);
-
-    z-index: 500;
-    display: block;
+    position: relative;
+    z-index: 600;
   }
 }

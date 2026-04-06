@@ -51,7 +51,7 @@
 
   /* LOGO - Title */
   .Header article a p {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 
     font-family: "Roboto Slab", serif;
@@ -144,6 +144,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .Header {
+    background-color: transparent;
+  }
+
   /* MENU */
   .Header article nav {
     display: none;
@@ -163,7 +167,7 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     list-style: none;
@@ -175,12 +179,15 @@
   .Header article span ul li {
     width: 100%;
 
+    display: flex;
+    justify-content: center;
+
     margin: 0 0 0 0;
     padding: 0;
   }
 
   .Header article span ul li a {
-    color: black;
+    color: rgb(255, 255, 255);
 
     font-size: 0.9rem;
     font-family: "Roboto Slab", serif;
@@ -190,11 +197,15 @@
 
     margin: 0;
     padding: 0;
+
+    padding: 0.4rem 1rem 0.4rem 1rem;
     transition: all ease-in-out 300ms;
   }
 
   .Header article span ul li a.active {
-    color: blue;
+    color: rgb(255, 255, 255);
+
+    border: 1px solid white;
   }
 
   .Header article span ul li a:hover {

@@ -161,7 +161,6 @@ const BannerSlider = () => {
           <div className="BannerSlider_content-box-Arroow-ArrowLeftBox">
             <IoIosArrowBack className="BannerSlider_content-box-Arroow-Left controller" />
           </div>
-
           <div className="BannerSlider_content-box-Slide">
             <img
               src="/public/Banner/Banner_02.png"
@@ -185,85 +184,6 @@ const BannerSlider = () => {
             />
           </div>
 
-          <div className="BannerSlider_content-box-form-container">
-            <div className="BannerSlider_content-box-form-container-content">
-              <form
-                action=""
-                className="BannerSlider_content-box-form-container-contentForm"
-              >
-                <div className="BannerSlider_content-box-form-container-contentForm-title">
-                  <h1>Quick Contact</h1>
-                </div>
-                {/* NAME */}
-                <div className="BannerSlider_content-box-form-container-contentForm-inputs">
-                  <label htmlFor="">
-                    <span>Name</span>
-                    <input type="text" />
-                  </label>
-                </div>
-                {/* PHONE */}
-                <div className="BannerSlider_content-box-form-container-contentForm-inputs">
-                  <label htmlFor="">
-                    <span>Numero</span>
-                    <input type="text" />
-                  </label>
-                </div>
-                {/* CITY */}
-                <div className="BannerSlider_content-box-form-container-contentForm-inputs">
-                  <label htmlFor="">
-                    <span>Localidade</span>
-                    <input type="text" />
-                  </label>
-                </div>
-                {/* Description */}
-                <div className="BannerSlider_content-box-form-container-contentForm-textarea">
-                  <label htmlFor="">
-                    <span>Descrição do Trabalho</span>
-                    <textarea name="" id=""></textarea>
-                  </label>
-                </div>
-                {/* Submit */}
-                <div className="BannerSlider_content-box-form-container-contentForm-submit">
-                  <input type="submit" />
-                </div>
-                {/* Message Error */}
-                <div className="BannerSlider_content-box-form-container-contentForm-MessageError"></div>
-              </form>
-            </div>
-          </div>
-
-          <div className="BannerSlider_content-box-Arroow-ArrowRigthBox">
-            <IoIosArrowForward className="BannerSlider_content-box-Arroow-Right controller" />
-          </div>
-
-          <div className="BannerSlider_content-box-Description">
-            <div className="BannerSlider_content-box-Description-container">
-              <div className="BannerSlider_content-box-Description-content CurrentDescription">
-                <h1>Proteção contra Curtos</h1>
-                <p>Our professional provide Services</p>
-                <NavLink className="ControllerLink">Saber Mais..</NavLink>
-              </div>
-
-              <div className="BannerSlider_content-box-Description-content">
-                <h1>Projeto elétrico Certificado</h1>
-                <p>Our professional provide Services</p>
-                <NavLink className="ControllerLink">Saber Mais..</NavLink>
-              </div>
-
-              <div className="BannerSlider_content-box-Description-content">
-                <h1>Manutenção preventiva</h1>
-                <p>Our professional provide Services</p>
-                <NavLink className="ControllerLink">Saber Mais..</NavLink>
-              </div>
-
-              <div className="BannerSlider_content-box-Description-content">
-                <h1>Portinhola é Aterramentos</h1>
-                <p>Our professional provide Services</p>
-                <NavLink className="ControllerLink">Saber Mais..</NavLink>
-              </div>
-            </div>
-          </div>
-
           <div className="BannerSlider_content-box-Slide-BoxCounter">
             <div className="BannerSlider_content-box-Slide-accountants">
               <div className="BannerSlider_content-box-Slide-Pause">
@@ -275,6 +195,82 @@ const BannerSlider = () => {
               <div className="BannerSlider_content-box-Slide-counter"></div>
               <div className="BannerSlider_content-box-Slide-counter"></div>
             </div>
+          </div>
+
+          <section id="Section_content_Form">
+            <article>
+              <div className="BannerSlider_content-box-Description">
+                <div className="BannerSlider_content-box-Description-container">
+                  <div className="BannerSlider_content-box-Description-content CurrentDescription">
+                    <h1>Proteção contra Curtos</h1>
+                    <p>Our professional provide Services</p>
+                    <NavLink className="ControllerLink">Saber Mais..</NavLink>
+                  </div>
+
+                  <div className="BannerSlider_content-box-Description-content">
+                    <h1>Projeto elétrico Certificado</h1>
+                    <p>Our professional provide Services</p>
+                    <NavLink className="ControllerLink">Saber Mais..</NavLink>
+                  </div>
+
+                  <div className="BannerSlider_content-box-Description-content">
+                    <h1>Manutenção preventiva</h1>
+                    <p>Our professional provide Services</p>
+                    <NavLink className="ControllerLink">Saber Mais..</NavLink>
+                  </div>
+
+                  <div className="BannerSlider_content-box-Description-content">
+                    <h1>Portinhola é Aterramentos</h1>
+                    <p>Our professional provide Services</p>
+                    <NavLink className="ControllerLink">Saber Mais..</NavLink>
+                  </div>
+                </div>
+              </div>
+
+              <div className="BannerSlider_content-box-form-container">
+                <div className="BannerSlider_content-box-form-container-content">
+                  <form
+                    action=""
+                    className="BannerSlider_content-box-form-container-contentForm"
+                  >
+                    <div className="BannerSlider_content-box-form-container-contentForm-title">
+                      <h1>Quick Contact</h1>
+                    </div>
+                    {/* NAME */}
+                    <div className="BannerSlider_content-box-form-container-contentForm-inputs">
+                      <label htmlFor="">
+                        <span>Nome Completo</span>
+                        <input type="text" placeholder="*" />
+                      </label>
+                    </div>
+                    {/* PHONE */}
+                    <div className="BannerSlider_content-box-form-container-contentForm-inputs">
+                      <label htmlFor="">
+                        <span>Numero</span>
+                        <input type="text" placeholder="*" />
+                      </label>
+                    </div>
+                    {/* Description */}
+                    <div className="BannerSlider_content-box-form-container-contentForm-textarea">
+                      <label htmlFor="">
+                        <span>Destino</span>
+                        <textarea name="" id="" placeholder="*"></textarea>
+                      </label>
+                    </div>
+                    {/* Submit */}
+                    <div className="BannerSlider_content-box-form-container-contentForm-submit">
+                      <input type="submit" />
+                    </div>
+                    {/* Message Error */}
+                    <div className="BannerSlider_content-box-form-container-contentForm-MessageError"></div>
+                  </form>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <div className="BannerSlider_content-box-Arroow-ArrowRigthBox">
+            <IoIosArrowForward className="BannerSlider_content-box-Arroow-Right controller" />
           </div>
         </div>
       </div>
