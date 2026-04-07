@@ -33,9 +33,24 @@ const Header = () => {
     });
   }
 
+  // Header Scroll
+  function headerScroll() {
+    const Header = document.querySelector(".Header");
+    const PositionIni = 10;
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY >= PositionIni) {
+        Header.classList.add("HeaderJS");
+      } else {
+        Header.classList.remove("HeaderJS");
+      }
+    });
+  }
+
   useEffect(() => {
     const startEvents = setTimeout(() => {
       menuLinks();
+      headerScroll();
     }, 1000);
 
     return () => clearTimeout(startEvents);

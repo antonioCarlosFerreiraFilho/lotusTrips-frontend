@@ -1,12 +1,20 @@
 @media screen and (min-width: 358px) {
   .Header {
-    background-color: white;
+    background-color: transparent;
     width: 100%;
 
     position: fixed;
     top: 0;
 
     z-index: 1000;
+
+    transition: all ease-in-out 300ms;
+  }
+
+  .HeaderJS {
+    background-color: #00000095;
+
+    transition: all ease-in-out 300ms;
   }
 
   .Header article {
@@ -102,7 +110,7 @@
     width: 30px;
     height: 4px;
 
-    border-top: 4px solid black;
+    border-top: 4px solid rgb(255, 255, 255);
 
     display: flex;
 
@@ -115,7 +123,7 @@
   .Header article nav i .Header_Menu-line::after,
   .Header article nav i .Header_Menu-line::before {
     content: "";
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 
     display: block;
     width: 100%;
@@ -144,10 +152,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .Header {
-    background-color: transparent;
-  }
-
   /* MENU */
   .Header article nav {
     display: none;

@@ -15,7 +15,7 @@ const NavBar = () => {
           <NavLink to="/thisMonth">Deste Mes</NavLink>
         </nav>
         <figure>
-          <img src="/public/logo/Logo.png" alt="Logo" />
+          <img src="/public/logo/Lotus.png" alt="Logo" />
           <p>
             Lotus<strong>Trips</strong>
           </p>

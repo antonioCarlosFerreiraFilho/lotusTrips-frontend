@@ -1,12 +1,11 @@
 @media screen and (min-width: 358px) {
   .NavBar {
-    background-color: white;
+    background-color: #00000095;
 
     position: fixed;
     left: -100vw;
     width: 75vw;
     height: 100vh;
-    border-right: 5px solid rgb(188, 148, 126);
 
     transition: all ease-in-out 600ms;
   }
@@ -17,21 +16,24 @@
   }
 
   .NavBar article {
+    background-color: #00000095;
+
     width: 100%;
+    height: 100%;
 
     display: flex;
     flex-direction: column;
 
     box-sizing: border-box;
     padding: 0 0 0 2rem;
-    margin: 1.5rem 0 0 0;
+    margin: 0rem 0 0 0;
   }
 
   /* Menu - List */
 
   .NavBar article nav {
     width: 100%;
-    height: 30vh;
+    height: 35vh;
 
     box-sizing: border-box;
     padding: 0;
@@ -45,11 +47,11 @@
   /* Menu - List - Link */
 
   .NavBar article nav a {
-    color: rgb(100, 99, 99);
+    color: rgb(255, 255, 255);
 
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     text-decoration: none;
 
     font-size: 1.2rem;
@@ -62,7 +64,9 @@
   }
 
   .NavBar article nav a.active {
-    color: rgb(188, 148, 126);
+    color: rgb(255, 255, 255);
+
+    border: 1px solid rgb(255, 255, 255);
   }
 
   .NavBar article nav a:hover {
@@ -75,7 +79,7 @@
 
   .NavBar article figure {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
 
     display: flex;
     flex-direction: column;
@@ -87,13 +91,13 @@
   }
 
   .NavBar article figure img {
-    width: 35%;
+    width: 70%;
     object-fit: cover;
   }
 
   /* Menu - Logo - Title */
   .NavBar article figure p {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 
     font-family: "Roboto Slab", serif;
