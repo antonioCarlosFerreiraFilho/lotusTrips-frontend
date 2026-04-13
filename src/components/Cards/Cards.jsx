@@ -18,15 +18,7 @@ const Cards = () => {
               Most <strong>Popular</strong> Tours
             </h1>
           </aside>
-          <aside id="Cards_title-Description">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              commodi reiciend loremis quam itaque,{" "}
-              <strong>magni corrupti quidem cum</strong>, nam nulla minima,
-              porro reprehenderit beatae suscipit dolores sit. Nihil dicta
-              eligendi pariatur!
-            </p>
-          </aside>
+          <aside id="Cards_title-Description"></aside>
         </article>
         <article>
           <NavLink>

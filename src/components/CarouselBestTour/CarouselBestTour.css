@@ -1,0 +1,178 @@
+@media screen and (min-width: 358px) {
+  .CarouselBestTour {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CarouselBestTour aside {
+    width: 100%;
+    max-width: 1300px;
+    overflow: hidden;
+
+    margin: 1rem 0 1rem 0;
+
+    box-sizing: border-box;
+  }
+
+  /* Content - Containers */
+  .CarouselBestTour aside article {
+    width: 400%;
+
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+  }
+
+  /* Container Cards */
+  .CarouselBestTour aside article nav {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow-y: hidden;
+    transition: all ease-in-out 2s;
+  }
+
+  /* Card - Link - Link */
+  .CarouselBestTour aside article nav a {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+  }
+
+  /* Card - Figure - Image */
+  .CarouselBestTour aside article nav a figure {
+    width: 90%;
+    max-height: 300px;
+    min-height: 250px;
+
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+  }
+
+  /* Card - Link - Background */
+  .CarouselBestTour aside article nav a figure div {
+    background-image: linear-gradient(to bottom, #00000010, #00000070);
+
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+
+    transition: all ease-in-out 600ms;
+  }
+
+  /* Card - Link - Animation */
+  .CarouselBestTour aside article nav a:hover figure div {
+    height: 100%;
+
+    transition: all ease-in-out 600ms;
+  }
+
+  /* Card - Link - Image */
+  .CarouselBestTour aside article nav a figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Card - Description */
+  .CarouselBestTour aside article nav a ul {
+    width: 90%;
+    height: auto;
+
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin: 0;
+
+    list-style: none;
+  }
+
+  .CarouselBestTour aside article nav a ul li {
+    width: 100%;
+  }
+
+  .CarouselBestTour aside article nav a ul li h1 {
+    color: rgb(93, 89, 89);
+
+    font-size: 0.9rem;
+    text-align: start;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .CarouselBestTour aside article nav a ul li h2 {
+    color: rgb(0, 0, 0);
+
+    font-size: 2rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    text-align: start;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .CarouselBestTour aside article nav a ul li .CarouselBestTour_Icons-stars {
+    width: 100%;
+
+    display: flex;
+  }
+
+  .CarouselBestTour aside article nav a ul li .CarouselBestTour_Icons {
+    color: rgb(213, 213, 31);
+    margin: 0 5px 0 0;
+  }
+
+  .CarouselBestTour aside article nav a ul li p {
+    color: rgb(93, 89, 89);
+
+    font-size: 0.9rem;
+    text-align: start;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+
+    margin: 0 0 0 0;
+    padding: 0 0 30px 0;
+
+    border-bottom: 1px dashed black;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .CarouselBestTour aside {
+    width: 100%;
+    overflow: hidden;
+
+    margin: 1rem 0 1rem 0;
+  }
+
+  /* Content - Containers */
+  .CarouselBestTour aside article {
+    width: 200%;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    overflow-x: hidden;
+  }
+
+  .CarouselBestTour aside article ::-webkit-scrollbar {
+    display: none;
+  }
+}
