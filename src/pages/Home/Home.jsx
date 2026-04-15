@@ -9,7 +9,6 @@ import CallTour from "../../components/CallTour/CallTour";
 const Home = () => {
   return (
     <section>
-      {/* HOME */}
       <BannerSlider />
       <Cards />
       <CarouselBestTour />
