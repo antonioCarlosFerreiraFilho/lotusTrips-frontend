@@ -10,14 +10,18 @@ import { useScroll } from "../../hooks/useScroll";
 
 const CarouselBestTour = () => {
   function ScrollCarrossel() {
+    //const banner = document.getElementById("BannerCarousel");
+
     let counter = 0;
-    const box = document.getElementById("CarouselBestTour-Scroll");
-    const cards = document.querySelectorAll(".CarouselBestTour-transition");
     const maxLength = 3;
+
+    const box = document.getElementById("CarouselBestTour-Scroll");
+    const cards = document.querySelectorAll(".CardCarousel");
 
     const nextBox = () => {
       counter++;
 
+      cards[counter].classList.add("BannerCarousel");
       if (counter >= maxLength) {
         counter = 0;
       }
@@ -48,7 +52,10 @@ const CarouselBestTour = () => {
             {/* Card-Scrroll */}
             <nav id="CarouselBestTour-Scroll">
               {/* box-transition */}
-              <NavLink id="CarouselBestTour-transition">
+              <NavLink
+                id="CarouselBestTour-transition"
+                className="CardCarousel"
+              >
                 <figure>
                   <img src="./Banner/Banner_03.jpg" alt="Paris, Françã" />
                   <div></div>
@@ -75,7 +82,10 @@ const CarouselBestTour = () => {
                   </li>
                 </ul>
               </NavLink>
-              <NavLink id="CarouselBestTour-transition">
+              <NavLink
+                id="CarouselBestTour-transition"
+                className="CardCarousel"
+              >
                 <figure>
                   <img src="./Banner/Banner_02.png" alt="Paris, Françã" />
                   <div></div>
@@ -102,7 +112,10 @@ const CarouselBestTour = () => {
                   </li>
                 </ul>
               </NavLink>
-              <NavLink id="CarouselBestTour-transition">
+              <NavLink
+                id="CarouselBestTour-transition"
+                className="CardCarousel"
+              >
                 <figure>
                   <img src="./Banner/Banner_04.jpg" alt="Paris, Françã" />
                   <div></div>
@@ -129,7 +142,10 @@ const CarouselBestTour = () => {
                   </li>
                 </ul>
               </NavLink>
-              <NavLink id="CarouselBestTour-transition">
+              <NavLink
+                id="CarouselBestTour-transition"
+                className="CardCarousel"
+              >
                 <figure>
                   <img src="./Banner/Banner_01.jpg" alt="Paris, Françã" />
                   <div></div>
