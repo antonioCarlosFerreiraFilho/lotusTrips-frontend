@@ -18,6 +18,7 @@ const CarouselBestTour = () => {
     const box = document.getElementById("CarouselBestTour-Scroll");
     const cards = document.querySelectorAll(".CardCarousel");
 
+    // Loop
     const nextBox = () => {
       counter++;
 
