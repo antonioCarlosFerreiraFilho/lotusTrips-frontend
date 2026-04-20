@@ -11,7 +11,6 @@ const Cards = () => {
   return (
     <section className="Cards">
       <main>
-        {/* ola mundo */}
         <article id="Cards_Title-Description-Pri">
           <aside id="Cards_title-Initial">
             <h1>

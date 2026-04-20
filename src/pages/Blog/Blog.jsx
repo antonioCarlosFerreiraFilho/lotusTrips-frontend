@@ -1,11 +1,13 @@
 //CSS
 import "./Blog.css";
+//Components
+import Tours from "../../components/Tours/Tours";
 
 const Blog = () => {
   return (
-    <div>
-      <h1>Blog</h1>
-    </div>
+    <section>
+      <Tours />
+    </section>
   );
 };
 

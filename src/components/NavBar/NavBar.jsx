@@ -9,7 +9,7 @@ const NavBar = () => {
       <article>
         <nav className="NavBar_list-Links">
           <NavLink to="/">Ìnicio</NavLink>
-          <NavLink to="/trips">Viagens</NavLink>
+          <NavLink to="/blog">Viagens</NavLink>
           <NavLink to="/discover">Descubra</NavLink>
           <NavLink to="/highlights">Destaques</NavLink>
           <NavLink to="/thisMonth">Deste Mes</NavLink>

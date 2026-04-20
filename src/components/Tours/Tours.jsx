@@ -1,10 +1,149 @@
+//CSS
 import "./Tours.css";
+//REACT
+import { NavLink } from "react-router-dom";
+//REACT ICONS
+import { IoCalendarSharp } from "react-icons/io5";
+import { IoIosArrowDropright } from "react-icons/io";
 
 const Tours = () => {
   return (
-    <div>
-      <h1>TOURS</h1>
-    </div>
+    <section className="Tours">
+      <main>
+        <article>
+          <aside>
+            <h1>POST FORMATS WITH SIDEBAR</h1>
+          </aside>
+        </article>
+        <article className="Tours_Card">
+          <NavLink>
+            <figure>
+              <img src="/Banner/Banner_01.jpg" alt="Paisagem, Paris" />
+            </figure>
+            <h1>Holiday, Resort</h1>
+            <h2>Las Terrazas Resort</h2>
+            <div>
+              <IoCalendarSharp className="Tours_Card_icon" />
+              <p>Janeiro 14, 2026</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              voluptates enim velit dolorum porro sequi corrupti possimus magnam
+              quis! Voluptatem vitae maxime possimus sed. Quidem laboriosam
+              incidunt soluta repellat voluptate.
+            </p>
+            <ul>
+              <li>
+                <IoIosArrowDropright className="Tours_Card_icon-arrow" />
+              </li>
+              <li>
+                <p>Saiba Mais.....</p>
+              </li>
+            </ul>
+          </NavLink>
+          <NavLink>
+            <figure>
+              <img src="/Banner/Banner_01.jpg" alt="Paisagem, Paris" />
+            </figure>
+            <h1>Holiday, Resort</h1>
+            <h2>Las Terrazas Resort</h2>
+            <div>
+              <IoCalendarSharp className="Tours_Card_icon" />
+              <p>Janeiro 14, 2026</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              voluptates enim velit dolorum porro sequi corrupti possimus magnam
+              quis! Voluptatem vitae maxime possimus sed. Quidem laboriosam
+              incidunt soluta repellat voluptate.
+            </p>
+            <ul>
+              <li>
+                <IoIosArrowDropright className="Tours_Card_icon-arrow" />
+              </li>
+              <li>
+                <p>Saiba Mais.....</p>
+              </li>
+            </ul>
+          </NavLink>
+          <NavLink>
+            <figure>
+              <img src="/Banner/Banner_01.jpg" alt="Paisagem, Paris" />
+            </figure>
+            <h1>Holiday, Resort</h1>
+            <h2>Las Terrazas Resort</h2>
+            <div>
+              <IoCalendarSharp className="Tours_Card_icon" />
+              <p>Janeiro 14, 2026</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              voluptates enim velit dolorum porro sequi corrupti possimus magnam
+              quis! Voluptatem vitae maxime possimus sed. Quidem laboriosam
+              incidunt soluta repellat voluptate.
+            </p>
+            <ul>
+              <li>
+                <IoIosArrowDropright className="Tours_Card_icon-arrow" />
+              </li>
+              <li>
+                <p>Saiba Mais.....</p>
+              </li>
+            </ul>
+          </NavLink>
+          <NavLink>
+            <figure>
+              <img src="/Banner/Banner_01.jpg" alt="Paisagem, Paris" />
+            </figure>
+            <h1>Holiday, Resort</h1>
+            <h2>Las Terrazas Resort</h2>
+            <div>
+              <IoCalendarSharp className="Tours_Card_icon" />
+              <p>Janeiro 14, 2026</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              voluptates enim velit dolorum porro sequi corrupti possimus magnam
+              quis! Voluptatem vitae maxime possimus sed. Quidem laboriosam
+              incidunt soluta repellat voluptate.
+            </p>
+            <ul>
+              <li>
+                <IoIosArrowDropright className="Tours_Card_icon-arrow" />
+              </li>
+              <li>
+                <p>Saiba Mais.....</p>
+              </li>
+            </ul>
+          </NavLink>
+          <NavLink>
+            <figure>
+              <img src="/Banner/Banner_01.jpg" alt="Paisagem, Paris" />
+            </figure>
+            <h1>Holiday, Resort</h1>
+            <h2>Las Terrazas Resort</h2>
+            <div>
+              <IoCalendarSharp className="Tours_Card_icon" />
+              <p>Janeiro 14, 2026</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              voluptates enim velit dolorum porro sequi corrupti possimus magnam
+              quis! Voluptatem vitae maxime possimus sed. Quidem laboriosam
+              incidunt soluta repellat voluptate.
+            </p>
+            <ul>
+              <li>
+                <IoIosArrowDropright className="Tours_Card_icon-arrow" />
+              </li>
+              <li>
+                <p>Saiba Mais.....</p>
+              </li>
+            </ul>
+          </NavLink>
+        </article>
+      </main>
+    </section>
   );
 };
 
