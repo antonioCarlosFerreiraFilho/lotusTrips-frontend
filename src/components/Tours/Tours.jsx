@@ -10,6 +10,7 @@ const Tours = () => {
   return (
     <section className="Tours">
       <main>
+        {/* Cards */}
         <article>
           <aside>
             <h1>POST FORMATS WITH SIDEBAR</h1>
