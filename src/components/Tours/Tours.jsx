@@ -10,7 +10,7 @@ const Tours = () => {
   return (
     <section className="Tours">
       <main>
-        {/* Card */}
+        {/*Tours*/}
         <article>
           <aside>
             <h1>POST FORMATS WITH SIDEBAR</h1>
