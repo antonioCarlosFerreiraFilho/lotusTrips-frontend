@@ -1,0 +1,49 @@
+@media screen and (min-width: 358px) {
+  .BannerTours {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .BannerTours figure {
+    background-image: url("../../../public/Banner/Banner_01.jpg");
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    max-width: 1450px;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .BannerTours figure aside {
+    background-color: #00000060;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .BannerTours figure aside a {
+    color: rgb(255, 255, 255);
+
+    font-size: 1rem;
+    text-align: start;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    text-decoration: none;
+
+    margin: 0 10px 10px 0;
+    padding: 0;
+  }
+}

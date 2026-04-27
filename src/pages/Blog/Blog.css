@@ -1,2 +1,37 @@
 @media screen and (min-width: 358px) {
+  .Blog .Blog_Tours-BrokenBox .Blog_BrokenBox {
+    display: none;
+  }
+
+  .Blog_BannerTours {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .Blog {
+    width: 100%;
+  }
+
+  .Blog .Blog_Tours-BrokenBox {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Blog .Blog_Tours-BrokenBox div {
+    width: 100%;
+    max-width: 1450px;
+
+    display: flex;
+  }
+
+  .Blog .Blog_Tours-BrokenBox .Blog_Tours {
+    width: 70%;
+  }
+
+  .Blog .Blog_Tours-BrokenBox .Blog_BrokenBox {
+    width: 30%;
+
+    display: block;
+  }
 }

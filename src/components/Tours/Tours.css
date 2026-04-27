@@ -6,38 +6,12 @@
     justify-content: center;
     align-items: center;
 
-    padding: 0.5rem;
+    padding: 0rem;
     box-sizing: border-box;
   }
 
   .Tours main {
     width: 100%;
-  }
-
-  /* Title */
-  .Tours main article {
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-
-    margin-top: 4rem;
-  }
-
-  .Tours main article aside {
-    width: 65%;
-  }
-
-  .Tours main article aside h1 {
-    color: black;
-
-    font-size: 2rem;
-    text-align: center;
-    font-weight: 400;
-    font-family: "Roboto Slab", serif;
-
-    padding: 0;
-    margin: 0;
   }
 
   /* Card */
@@ -56,9 +30,10 @@
 
   .Tours main .Tours_Card a {
     width: 100%;
-    max-width: 550px;
-
+    max-width: 850px;
     text-decoration: none;
+
+    margin-bottom: 3rem;
   }
 
   /* Card Image */
@@ -189,7 +164,27 @@
 }
 
 @media screen and (min-width: 768px) {
-  .Tours main .Tours_Card a {
-    margin-bottom: 2rem;
+  /* Card Image */
+  .Tours main .Tours_Card a figure {
+    width: 100%;
+    min-height: 250px;
+    height: 350px;
+    max-height: 350px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .Tours {
+    padding: 0rem;
+  }
+
+  /* Card */
+  .Tours main .Tours_Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    padding: 0;
   }
 }
