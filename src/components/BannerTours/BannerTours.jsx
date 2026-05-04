@@ -7,10 +7,7 @@ const BannerTours = () => {
   return (
     <section className="BannerTours">
       <figure>
-        <aside>
-          <NavLink>Inìcio /</NavLink>
-          <NavLink>Viagens</NavLink>
-        </aside>
+        <aside></aside>
       </figure>
     </section>
   );

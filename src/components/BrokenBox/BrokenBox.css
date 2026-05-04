@@ -1,10 +1,253 @@
 @media screen and (min-width: 900px) {
   .BrokenBox {
-    background-color: blueviolet;
-
     width: 100%;
     min-height: 100%;
 
     margin-top: 4rem;
+  }
+
+  .BrokenBox main {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .BrokenBox main article {
+    width: 95%;
+
+    box-sizing: border-box;
+    padding: 0 0 3rem 0;
+
+    border-bottom: 2px dashed rgb(203, 194, 194);
+  }
+
+  /* Form */
+  .BrokenBox main article form {
+    width: 100%;
+
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* label */
+  .BrokenBox main article form label {
+    width: 85%;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Input */
+  .BrokenBox main article form label input {
+    background-color: transparent;
+
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-right: 1px solid rgb(124, 117, 117);
+    border-bottom: 1px solid rgb(124, 117, 117);
+
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+    text-transform: uppercase;
+
+    outline: none;
+    box-sizing: border-box;
+    padding: 0 0.2rem 0 1rem;
+    margin: 0;
+  }
+
+  .BrokenBox main article form label input::placeholder {
+    color: rgb(112, 109, 109);
+
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+
+    padding: 0 0.2rem 0 0.2rem;
+  }
+
+  .BrokenBox main article form .BrokenBox_BoxiconSearch {
+    width: 15%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .BrokenBox main article form .BrokenBox_BoxiconSearch:last-child {
+    color: black;
+
+    font-size: 1.7rem;
+  }
+
+  /* Categories */
+  .BrokenBox main article h2 {
+    color: rgb(93, 89, 89);
+
+    font-size: 1.2rem;
+    text-align: start;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+
+    margin: 2rem 0 0 0;
+    padding: 0;
+  }
+
+  .BrokenBox main article nav {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+
+    padding-left: 0.5rem;
+  }
+
+  .BrokenBox main article nav a {
+    color: rgb(31, 88, 202);
+
+    font-size: 1rem;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+
+    margin: 1rem 0 0 0;
+    padding: 0;
+
+    text-decoration: none;
+  }
+
+  /* Recent Posts */
+  .BrokenBox main article aside {
+    width: 100%;
+  }
+
+  .BrokenBox main article aside a {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2rem 0 0 0;
+    text-decoration: none;
+  }
+
+  .BrokenBox main article aside a figure {
+    width: 60%;
+    min-height: 60px;
+    max-height: 100px;
+
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .BrokenBox main article aside a figure img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .BrokenBox main article aside a div {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .BrokenBox main article aside a div h3 {
+    color: rgb(93, 89, 89);
+
+    font-size: 0.9rem;
+    text-align: start;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+
+    margin: 0 0 0 10px;
+    padding: 0;
+  }
+
+  /* Profile */
+  .BrokenBox main .BrokenBox_Profile {
+    width: 100%;
+  }
+
+  .BrokenBox main .BrokenBox_Profile aside {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+  }
+
+  .BrokenBox main .BrokenBox_Profile aside figure {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    border: 3px solid pink;
+
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  .BrokenBox main .BrokenBox_Profile aside figure img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .BrokenBox main .BrokenBox_Profile aside div {
+    width: 100%;
+    max-width: 290px;
+  }
+
+  .BrokenBox main .BrokenBox_Profile aside div p {
+    color: rgb(128, 123, 123);
+
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+
+    margin: 1rem 0 0 0;
+    padding: 0;
+  }
+
+  .BrokenBox main .BrokenBox_Profile aside ul {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+    box-sizing: border-box;
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .BrokenBox main .BrokenBox_Profile aside ul a {
+    width: auto;
+  }
+
+  .BrokenBox main .BrokenBox_Profile aside ul a .BrokenBox_Profile-icons {
+    color: rgb(184, 158, 163);
+    font-size: 1.5rem;
   }
 }

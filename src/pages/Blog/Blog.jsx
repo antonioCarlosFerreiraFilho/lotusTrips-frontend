@@ -4,6 +4,7 @@ import "./Blog.css";
 import BannerTours from "../../components/BannerTours/BannerTours";
 import Tours from "../../components/Tours/Tours";
 import BrokenBox from "../../components/BrokenBox/BrokenBox";
+import CarouselBestTour from "../../components/CarouselBestTour/CarouselBestTour";
 
 const Blog = () => {
   return (
