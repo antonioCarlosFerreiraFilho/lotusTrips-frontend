@@ -6,6 +6,8 @@ import { FaInstagram } from "react-icons/fa";
 import { MdOutlineWhatsapp } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { IoMdCall } from "react-icons/io";
+import { TfiEmail } from "react-icons/tfi";
 // React
 import { NavLink } from "react-router-dom";
 
@@ -13,7 +15,7 @@ const BrokenBox = () => {
   return (
     <section className="BrokenBox">
       <main>
-        {/* formulario */}
+        {/* Form Search */}
         <article>
           <form>
             <label>
@@ -24,6 +26,7 @@ const BrokenBox = () => {
             </div>
           </form>
         </article>
+        {/* Categories */}
         <article>
           <h2>Categorias</h2>
           <nav>
@@ -38,6 +41,7 @@ const BrokenBox = () => {
             <NavLink>Gallery Alternative</NavLink>
           </nav>
         </article>
+        {/* Posts Recent */}
         <article>
           <h2>Postagens Recentes</h2>
           <aside>
@@ -79,6 +83,7 @@ const BrokenBox = () => {
             </NavLink>
           </aside>
         </article>
+        {/* Profile */}
         <article className="BrokenBox_Profile">
           <h2>FOLLOW US</h2>
           <aside>
@@ -106,6 +111,25 @@ const BrokenBox = () => {
               </NavLink>
             </ul>
           </aside>
+        </article>
+        {/* Call And Email */}
+        <article className="BrokenBox_Call-And-Email">
+          <ul>
+            <li>
+              <figure>
+                <IoMdCall className="BrokenBox_Call-And-Email-icons" />
+              </figure>
+              <h5>PHONE</h5>
+              <p>+351 932 015 787</p>
+            </li>
+            <li>
+              <figure>
+                <TfiEmail className="BrokenBox_Call-And-Email-icons" />
+              </figure>
+              <h5>EMAIL</h5>
+              <p>LotusTrips.support@gmail.com</p>
+            </li>
+          </ul>
         </article>
       </main>
     </section>

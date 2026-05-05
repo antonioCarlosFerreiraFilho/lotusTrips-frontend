@@ -113,7 +113,7 @@ const Tours = () => {
           </NavLink>
         </article>
       </main>
-      <aside>
+      <aside className="Tours_Pagination">
         <div>
           <h4>1</h4>
           <h4>2</h4>
