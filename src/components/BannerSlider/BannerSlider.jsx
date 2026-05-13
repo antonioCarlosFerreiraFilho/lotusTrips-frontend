@@ -156,6 +156,7 @@ const BannerSlider = () => {
   return (
     <div className="BannerSlider">
       <aside></aside>
+      {/* Banner */}
       <div className="BannerSlider_container">
         <div className="BannerSlider_content">
           <div className="BannerSlider_content-box-Arroow-ArrowLeftBox">
@@ -202,8 +203,8 @@ const BannerSlider = () => {
               <div className="BannerSlider_content-box-Description">
                 <div className="BannerSlider_content-box-Description-container">
                   <div className="BannerSlider_content-box-Description-content CurrentDescription">
-                    <h1>Proteção contra Curtos</h1>
-                    <p>Our professional provide Services</p>
+                    <h1>Roma Itália</h1>
+                    <p>Rotas de voo populares para Roma</p>
                     <NavLink className="ControllerLink">Saber Mais..</NavLink>
                   </div>
 
