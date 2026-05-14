@@ -156,7 +156,6 @@ const BannerSlider = () => {
   return (
     <div className="BannerSlider">
       <aside></aside>
-      {/* Banner */}
       <div className="BannerSlider_container">
         <div className="BannerSlider_content">
           <div className="BannerSlider_content-box-Arroow-ArrowLeftBox">
